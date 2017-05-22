@@ -1,0 +1,76 @@
+html {
+  font-size: 8px;
+}
+
+
+/*Header and Navbar*/
+
+.header-navbar {
+  display: flex;
+  font-size: 3rem;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DBE0E2;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  color: #242F4F;
+  font-weight: bold;
+}
+
+header img {
+  height: 8rem;
+  width: 6rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+  padding: 0rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #242F4F;
+}
+
+/*main-banner*/
+
+.main-banner {
+  display: flex;
+  align-items: center;
+}
+
+.main-banner img {
+  margin: 4rem 5rem 4rem 3rem;
+  width: 60%;
+}
+
+.banner-text h1 {
+  font-size: 7rem;
+  color: #242F4F;
+}
+
+.banner-text h3 {
+  font-size: 4rem;
+  margin: 4rem 0;
+  color: #242F4F;
+}
+
+#button {
+  font-size: 3rem;
+  padding: 1rem;
+  background-color: #93A8AC;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+#button a {
+  color: #242F4F;
+}
