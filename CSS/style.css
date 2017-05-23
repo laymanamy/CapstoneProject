@@ -1,5 +1,6 @@
 html {
   font-size: 8px;
+  font-family: "Raleway", sans-serif;
 }
 
 
@@ -19,7 +20,8 @@ header {
   align-items: center;
   margin-left: 3rem;
   color: #242F4F;
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 4rem;
 }
 
 header img {
@@ -45,6 +47,7 @@ a {
 .main-banner {
   display: flex;
   align-items: center;
+  background-color: #EFE7E8;
 }
 
 .main-banner img {
@@ -69,8 +72,156 @@ a {
   background-color: #93A8AC;
   text-align: center;
   margin-right: 2rem;
+  transition: background-color 750ms linear 0s;
 }
 
 #button a {
   color: #242F4F;
+}
+
+#button:hover {
+  background-color: #396672;
+}
+
+/*main section*/
+.flex-container {
+  display: flex;
+}
+
+.main-feature {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.main-feature img {
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+
+.main-feature h1 {
+  margin: 4rem 0 3rem 3rem;
+  font-size: 6rem;
+  color: #242F4F;
+}
+
+.main-feature h5 {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-family:
+}
+
+.main-feature p {
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-family:
+}
+
+/*Information Section*/
+.flex-container-info {
+  width: 423px;
+  color: #242f4f;
+}
+
+.orientation, .campus, .lecture {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  border: 1px solid #EFE7E8;
+  padding-left: 2rem;
+  margin-left: 3rem;
+}
+
+.orientation img, .campus img, .lecture img {
+  width: 35%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.campus, .lecture {
+  margin-top: 0;
+  border-top: none;
+}
+
+
+#info h2 {
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+
+#info h3, #info a {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#info a:hover {
+  color: #396672;
+  font-weight: bold;
+}
+
+.lecture {
+  background-color: #EFE7E8;
+}
+
+/*start learning*/
+
+.start-learning {
+  margin-top: 5rem;
+  background-color: #EFE7E8;
+  padding-bottom: 4rem;
+}
+
+.start-learning h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: #242F4F;
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  background-color: white;
+  margin: 1rem 2rem;
+  width: 25%;
+}
+
+.item img {
+  max-width: 100%;
+}
+
+.item h3 {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+.item p {
+  font-size: 2rem;
+  margin: 3rem 2rem;
+}
+
+/*Footer*/
+footer {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #DBE0E2;
+  height: 8rem;
+}
+
+footer h6 {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+footer nav {
+  margin-top: 2rem;
 }
