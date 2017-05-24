@@ -63,11 +63,10 @@ a {
 }
 
 .banner-text {
-  width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  width: 40%;
 }
 
 .banner-text h1 {
@@ -83,11 +82,11 @@ a {
 
 #button {
   font-size: 3rem;
-  padding: 1rem;
   background-color: #93A8AC;
-  text-align: center;
-  margin-right: 2rem;
+  padding: 1rem;
   transition: background-color 750ms linear 0s;
+  width: 80%;
+  text-align: center;
 }
 
 #button a {
@@ -97,6 +96,7 @@ a {
 #button:hover {
   background-color: #396672;
 }
+
 
 .image {
   width: 90%;
