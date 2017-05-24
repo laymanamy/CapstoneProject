@@ -287,6 +287,9 @@ a {
   margin-bottom: 2rem;
 }
 
+/*Social*/
+
+
 /*Footer*/
 footer {
   font-size: 2rem;
@@ -302,6 +305,10 @@ footer h6 {
 }
 
 footer nav {
+  margin-top: 2rem;
+}
+
+.social {
   margin-top: 2rem;
 }
 
