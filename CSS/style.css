@@ -1,6 +1,7 @@
 html {
   font-size: 8px;
   font-family: "Raleway", sans-serif;
+  color: #242F4F;
 }
 
 
@@ -43,16 +44,30 @@ a {
 }
 
 /*main-banner*/
+.jumbotron {
+  width: 100%;
+  display: flex;
+  background-color: #EFE7E8;
+}
 
 .main-banner {
+  width: 60%;
   display: flex;
   align-items: center;
-  background-color: #EFE7E8;
+
 }
 
 .main-banner img {
   margin: 4rem 5rem 4rem 3rem;
-  width: 60%;
+  width: 100%;
+}
+
+.banner-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-text h1 {
@@ -83,6 +98,10 @@ a {
   background-color: #396672;
 }
 
+.image {
+  width: 90%;
+}
+
 /*main section*/
 .flex-container {
   display: flex;
@@ -97,6 +116,7 @@ a {
 .main-feature img {
   margin-left: 3rem;
   margin-top: 4rem;
+  width: 100%
 }
 
 .main-feature h1 {
@@ -208,6 +228,63 @@ a {
   margin: 3rem 2rem;
 }
 
+/*thesis exhibit*/
+
+.thesis h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: #242F4F;
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.thesis-content {
+  display: flex;
+}
+
+.video {
+  width: 60%;
+  margin-left: 3rem;
+}
+
+.video video {
+  margin-bottom: 3rem;
+}
+
+.video h3, .video h6 {
+  margin-bottom: 3rem;
+}
+
+.video h3, .fisma h3, .now-and-then h3 {
+  font-size: 4rem;
+}
+
+.video h6, .fisma p, .now-and-then p{
+  font-size: 2rem;
+}
+
+.fisma, .now-and-then {
+  display: flex;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+
+.fisma {
+  border: 1px solid #EFE7E8;
+  background-color: #EFE7E8;
+
+}
+
+.fisma img, .now-and-then img{
+  padding: 2rem;
+  width: 35%;
+}
+
+#thesis-info h3 {
+  margin-bottom: 2rem;
+}
+
 /*Footer*/
 footer {
   font-size: 2rem;
@@ -224,4 +301,9 @@ footer h6 {
 
 footer nav {
   margin-top: 2rem;
+}
+
+
+.flex-containter-info {
+    width: 40%;
 }
