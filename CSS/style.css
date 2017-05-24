@@ -4,7 +4,6 @@ html {
   color: #242F4F;
 }
 
-
 /*Header and Navbar*/
 
 .header-navbar {
@@ -42,6 +41,29 @@ a {
   text-decoration: none;
   color: #242F4F;
 }
+
+nav img {
+  display: none;
+}
+
+@media only screen and (max-width: 680px) {
+  .header-navbar {
+    height: 8rem;
+    background-color: white;
+  }
+  header h1 {
+    display: none;
+  }
+
+  .header-navbar nav ul {
+    display: none;
+  }
+
+  nav img { /*why is this not working*/
+    display: flex;
+  }
+}
+
 
 /*main-banner*/
 .jumbotron {
@@ -141,10 +163,7 @@ a {
 }
 
 /*Information Section*/
-.flex-container-info {
-  width: 423px;
-  color: #242f4f;
-}
+
 
 .orientation, .campus, .lecture {
   display: flex;
@@ -313,6 +332,6 @@ footer nav {
 }
 
 
-.flex-containter-info {
+.flex-container-info {
     width: 40%;
 }
