@@ -64,7 +64,6 @@ nav img {
   }
 }
 
-
 /*main-banner*/
 .jumbotron {
   width: 100%;
@@ -162,9 +161,40 @@ nav img {
   font-family:
 }
 
+@media only screen and (max-width: 680px){
+  .jumbotron {
+    display: block;
+  }
+
+  .main-banner img {
+    display: none;
+  }
+
+  .main-banner {
+    background-color: #242f4f;
+    height: 22.5rem;
+    width: 100%
+  }
+
+  .banner-text {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .banner-text h1 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .banner-text h4 {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+}
+
+
 /*Information Section*/
-
-
 .orientation, .campus, .lecture {
   display: flex;
   align-items: center;
