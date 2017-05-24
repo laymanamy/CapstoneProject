@@ -72,12 +72,14 @@ a {
 .banner-text h1 {
   font-size: 7rem;
   color: #242F4F;
+  width: 90%;
 }
 
 .banner-text h3 {
   font-size: 4rem;
   margin: 4rem 0;
   color: #242F4F;
+  width: 90%;
 }
 
 #button {
@@ -85,7 +87,7 @@ a {
   background-color: #93A8AC;
   padding: 1rem;
   transition: background-color 750ms linear 0s;
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
