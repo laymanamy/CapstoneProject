@@ -321,6 +321,42 @@ nav img {
   margin: 3rem 2rem;
 }
 
+@media only screen and (max-width: 787px) {
+  .item h3 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .start-learning {
+    margin-top: 4rem;
+  }
+
+  .start-learning h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .classes {
+    display: flex;
+    flex-flow: column;
+
+  }
+
+  .item img {
+    display: none;
+  }
+
+  .item {
+    background-color: #93A8AC;
+    width: 95%;
+  }
+
+  .item p {
+    display: none;
+  }
+}
+
 /*thesis exhibit*/
 
 .thesis h1 {
