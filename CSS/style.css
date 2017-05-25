@@ -330,6 +330,7 @@ nav img {
 @media only screen and (max-width: 610px) {
   .start-learning {
     margin-top: 4rem;
+    background-color: white;
   }
 
   .start-learning h1 {
@@ -414,6 +415,22 @@ nav img {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 610px) {
+  .text {
+    display: none;
+  }
+
+  .video {
+    width: 100%;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .video h3, .video h6 {
+    display: none;
+  }
+}
+
 /*Social*/
 
 
@@ -424,17 +441,23 @@ footer {
   justify-content: space-between;
   background-color: #DBE0E2;
   height: 8rem;
+  padding-bottom: 2rem;
 }
 
-footer h6 {
+.copyright {
   margin-left: 3rem;
   margin-top: 2rem;
 }
 
-footer nav {
-  margin-top: 2rem;
+.social {
+  margin-bottom: 2rem;
 }
 
-.social {
+footer h6 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+footer nav {
   margin-top: 2rem;
 }
