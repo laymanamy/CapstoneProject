@@ -203,6 +203,10 @@ nav img {
 
 
 /*Information Section*/
+.flex-container-info {
+    width: 40%;
+}
+
 .orientation, .campus, .lecture {
   display: flex;
   align-items: center;
@@ -243,6 +247,36 @@ nav img {
 
 .lecture {
   background-color: #EFE7E8;
+}
+
+@media only screen and (max-width: 680px) {
+  .flex-container-info {
+    width: 100%;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .orientation, .campus, .lecture {
+    border: none;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .orientation img, .campus img, .lecture img {
+    width: 100%;
+    margin-right: 2rem;
+  }
+
+  #info h2 {
+    margin-bottom: 2rem;
+  }
+
+  .lecture {
+    background-color: white;
+  }
 }
 
 /*start learning*/
@@ -367,9 +401,4 @@ footer nav {
 
 .social {
   margin-top: 2rem;
-}
-
-
-.flex-container-info {
-    width: 40%;
 }
