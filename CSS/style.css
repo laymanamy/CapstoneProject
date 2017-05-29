@@ -12,7 +12,7 @@ html {
   height: 8rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #DBE0E2;
+  background-color: white;
 }
 
 header {
@@ -59,7 +59,7 @@ nav img {
     display: none;
   }
 
-  nav img { /*why is this not working*/
+  nav ul img { /*why is this not working?*/
     display: flex;
   }
 }
