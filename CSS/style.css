@@ -42,7 +42,7 @@ a {
   color: #242F4F;
 }
 
-nav img {
+.mobile-presentation {
   display: none;
 }
 
@@ -55,12 +55,16 @@ nav img {
     display: none;
   }
 
-  .header-navbar nav ul {
-    display: none;
+  .mobile-presentation {
+    display: block;
   }
 
-  nav ul img { /*why is this not working?*/
-    display: flex;
+  .mobile-presentation img {
+    margin-right: 7rem;
+  }
+
+  .desktop-presentation {
+    display: none;
   }
 }
 
@@ -216,8 +220,12 @@ nav img {
   margin-left: 3rem;
 }
 
-.orientation img, .campus img, .lecture img {
+.image-container {
   width: 35%;
+}
+
+.orientation img, .campus img, .lecture img {
+  width: 100%;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -249,6 +257,10 @@ nav img {
   background-color: #EFE7E8;
 }
 
+#info {
+  width: 65%;
+}
+
 @media only screen and (max-width: 680px) {
   .flex-container-info {
     width: 100%;
@@ -268,6 +280,7 @@ nav img {
   .orientation img, .campus img, .lecture img {
     width: 100%;
     margin-right: 2rem;
+
   }
 
   #info h2 {
@@ -276,6 +289,20 @@ nav img {
 
   .lecture {
     background-color: white;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #info {
+    margin-top: 24px;
+    width: 100%;
   }
 }
 

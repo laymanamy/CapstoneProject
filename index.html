@@ -18,13 +18,15 @@
         <h1>COLMAR ACADEMY</h1>
       </header>
       <nav>
-        <ul role="presentation">
+        <ul class="desktop-presentation" role="presentation">
           <li><a href="#oncampus">On campus</a></li>
-          <img src="CSS/images/ic-on-campus.svg" alt="link for on campus">
           <li><a href="#online">Online</a></li>
-          <img src="CSS/images/ic-online.svg" alt="link for online">
           <li><a href="#forcompanies">For companies</a></li>
           <li><a href="#signin">Sign in</a></li>
+        </ul>
+        <ul class="mobile-presentation" role="presentation">
+          <img src="CSS/images/ic-on-campus.svg" alt="link for on campus">
+          <img src="CSS/images/ic-online.svg" alt="link for online">
           <img src="CSS/images/ic-login.svg" alt="link for login">
         </ul>
       </nav>
@@ -56,7 +58,9 @@
       </div>
       <div class="flex-container-info">
         <div class="orientation">
-          <img src="CSS/images/information-orientation.jpg" alt="">
+          <div class="image-container">
+            <img src="CSS/images/information-orientation.jpg" alt="">
+          </div>
           <div id="info">
             <h2>Orientation date</h2>
             <h3>Tue 10/11 & Wed 10/12: 8am-3pm</h3>
@@ -64,7 +68,9 @@
           </div>
         </div>
         <div class="campus">
-          <img src="CSS/images/information-campus.jpg" alt="">
+          <div class="image-container">
+            <img src="CSS/images/information-campus.jpg" alt="">
+          </div>
           <div id="info">
             <h2>Our campus</h2>
             <h3>Find which campus is close by you</h3>
@@ -72,7 +78,9 @@
           </div>
         </div>
         <div class="lecture">
-          <img src="CSS/images/information-guest-lecture.jpg" alt="picture of guest lecturer Oliver Sack">
+          <div class="image-container">
+            <img src="CSS/images/information-guest-lecture.jpg" alt="picture of guest lecturer Oliver Sack">
+          </div>
           <div id="info">
             <h2>Guest lecture</h2>
             <h3>Join a keynote with Oliver Sack about music in medical treatment</h3>
